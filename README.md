@@ -24,6 +24,8 @@ By the end of the project, we will have a fully functioning database system that
 Note that we could not find complete accurate data for Broadcasting Crews and Player Start +  End Dates.
 
 Data Model:
+<img width="913" height="1056" alt="project1datamodel" src="https://github.com/user-attachments/assets/cba26dad-07da-4b32-b660-af616e6f221f" />
+
 Model Explanation:
 
 Our model is based on the structure of the NFL, particularly for the 2024 season. The team entity represents one of the thirty-two NFL teams. Each team can have many players, and a player can also have many teams (if a player gets cut or traded), which is shown by a many-to-many relationship. We used the associative entity team_has_player to track the start and end dates of when the player joined each team.
