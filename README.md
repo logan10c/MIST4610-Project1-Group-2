@@ -70,7 +70,7 @@ Queries:
 
 
 
-Write a query to list the coach, total number of players, and average player age by team.
+1) Write a query to list the coach, total number of players, and average player age by team.
 <img width="2104" height="1097" alt="Screenshot 2025-10-26 133934" src="https://github.com/user-attachments/assets/d487da1a-0d7f-473e-960c-37c7e7f0b39d" />
 
 
@@ -79,7 +79,7 @@ Write a query to list the coach, total number of players, and average player age
 This query is meaningful because it shows roster and coaching information to provide information about the composition of each team. It highlights how team size and player age may differ under different coaches, which can be valuable for identifying roster balance, experience distribution, and potential leadership styles within each organization
 
 
-Write a query that finds the top 3 teams with the most first round picks.
+2) Write a query that finds the top 3 teams with the most first round picks.
 <img width="1944" height="1075" alt="Screenshot 2025-10-26 134027" src="https://github.com/user-attachments/assets/1528e1d4-80a4-4611-8fac-d06a7fd319a9" />
 
 
