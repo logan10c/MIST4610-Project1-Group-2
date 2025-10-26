@@ -1,7 +1,7 @@
 # MIST4610-Project1-Group-2
 MIST4610 NFL 2024 Season Project 1
 
-Team Members:
+**Team Members:**
 
 - Logan Collins
 - Eli Burt
@@ -10,7 +10,7 @@ Team Members:
 - Rett Sams
 
 
-Problem Description:
+**Problem Description:**
 The objective of this project is to design, model, and implement a comprehensive relational database for the 2024 NFL season. The core focus of the system is the NFL Team entity, which is connected to related entities such as Players, Coaches, Referees, Broadcasters, and other operational components of the league.
 The project focuses on:
 Developing a complete Entity-Relationship model that accurately represents the structure and interactions of NFL organizations during the 2024 season.
@@ -23,12 +23,12 @@ Writing and executing SQL queries to efficiently retrieve meaningful insights fr
 By the end of the project, we will have a fully functioning database system that provides valuable visibility into the dynamics and analytics of the 2024 NFL season.
 Note that we could not find complete accurate data for Broadcasting Crews and Player Start +  End Dates.
 
-Data Model:
+**Data Model:**
 
 <img width="913" height="1056" alt="project1datamodel" src="https://github.com/user-attachments/assets/cba26dad-07da-4b32-b660-af616e6f221f" />
 
-Model Explanation:
-
+**Model Explanation:
+**
 Our model is based on the structure of the NFL, particularly for the 2024 season. The team entity represents one of the thirty-two NFL teams. Each team can have many players, and a player can also have many teams (if a player gets cut or traded), which is shown by a many-to-many relationship. We used the associative entity team_has_player to track the start and end dates of when the player joined each team.
 A team also has a stadium, but in some instances, teams share a stadium (NYJ and NYG or LAC and LAR). This is represented by a one-to-many relationship from stadium to team. Further, a team also has multiple coaches, and coaches can have only one team. Coaches do not get traded during a season, so they cannot be part of multiple teams. This is shown by a one-to-many relationship from team to coaches. Coaches also have a hierarchy—a coach can be the boss of many other coaches, but a coach can only have one boss. This is identified through a one-to-many recursive relationship.
 A team plays 18 regular-season games each year. Therefore, in our model, a team has many games. A game can only have one winner and one loser. This is modeled by two one-to-many relationships. A game must also have referees. A game can have only one referee crew and a referee crew can officiate many games over the season. This is shown by a one to many relationship from refereeCrew to game. A referee Crew can have many referees but a referee can only have one referee crew that they work with. A referee crew also has one chief referee.
@@ -47,7 +47,7 @@ Table: refereeCrew
 Table: referee
 Table: broadcastCrew
 Table: broadcaster
-Queries:
+**Queries:**
 
 
 
