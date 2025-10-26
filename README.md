@@ -40,37 +40,49 @@ Players in the NFL can have mentors throughout the league who help them develop 
 
 Data Dictionary:
 Table: player
+
 <img width="589" height="504" alt="image" src="https://github.com/user-attachments/assets/20e56a06-6a89-454f-bab3-1a85b1db947b" />
 
 Table: team_has_player
+
 <img width="477" height="232" alt="image" src="https://github.com/user-attachments/assets/24592d3a-b7f7-4e2b-9733-d0fd87f1af38" />
 
 Table: stadium
+
 <img width="537" height="262" alt="image" src="https://github.com/user-attachments/assets/47f0b76e-8556-4cb3-952d-f410e6994af2" />
 
 Table: coach
+
 <img width="573" height="261" alt="image" src="https://github.com/user-attachments/assets/978d614e-5058-4a4c-a8f9-77fbd992af82" />
 
 Table: team
+
 <img width="487" height="219" alt="image" src="https://github.com/user-attachments/assets/483c8735-7147-43af-8fac-63be9fc0f995" />
 
 Table: draftPick
+
 <img width="497" height="226" alt="image" src="https://github.com/user-attachments/assets/c480b757-7549-4bf5-8ce7-e446efaf2a85" />
 
 Table: game
+
 <img width="570" height="463" alt="image" src="https://github.com/user-attachments/assets/cf4bfc7b-94cf-4d05-8f53-98c4afb5a937" />
 
 Table: refereeCrew
+
 <img width="515" height="213" alt="image" src="https://github.com/user-attachments/assets/c33b923c-1246-42bd-8885-143c78898246" />
 
 Table: referee
+
 <img width="559" height="291" alt="image" src="https://github.com/user-attachments/assets/ccbe32fa-c7b6-49b1-806f-4e5d562fd013" />
 
 Table: broadcastCrew
+
 <img width="514" height="179" alt="image" src="https://github.com/user-attachments/assets/b30d29df-5ed2-40a6-b22f-7f2bc23a8a48" />
 
 Table: broadcaster
+
 <img width="600" height="224" alt="image" src="https://github.com/user-attachments/assets/4c13101a-1a8b-441f-b6dd-63c9a02f26f4" />
+
 **Queries:**
 
 
