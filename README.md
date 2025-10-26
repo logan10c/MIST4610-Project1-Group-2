@@ -144,7 +144,7 @@ Because it shows which coaches hold leadership positions within their organizati
 
 This query retrieves all stadiums that have a turf playing surface and can hold more than 70,000 spectators. It filters data on surface type and seating capacity, then orders the results from largest to smallest. This is meaningful because it highlights the biggest turf based stadiums in the league, which can be useful for event planning, monitoring fan capacity, and identifying potential venues where the Superbowl and Pro Bowl may be played.
 
-Database Information
+**Database Information**
 
 Name of the database: cs_jam37624
 
